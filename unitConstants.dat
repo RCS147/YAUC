@@ -1,0 +1,119 @@
+# FORMAT:
+# <tag> , <tag> ... = <convertToBaseUnit>
+# <convertToBaseUnit> is the number of base units in a given unit (i.e. 0.01 meters in a centimeter)
+# 
+# all strings should be lowercase
+# make sure to include symbol/abbreviation, and singular/plural forms of the full name
+
+$LENGTH
+m,meter,meters=1
+cm,centimeter,centimeters=0.01
+mm,millimeter,millimeters=0.001
+um,micrometer,micrometers,micron,microns=0.000001
+km,kilometer,kilometers=1000
+ft,',foot,feet=0.3048
+in,",'',inch,inches=0.0254
+yd,yard,yards=0.9144
+mi,mile,miles=1609.344
+nm,nautical mile,nautical miles=1852.0
+ly,light year,light years=9.4605284e15
+au,astronomical unit,astronomical units=149.57871e9
+furlong,furlongs=201.168
+
+$MASS
+g,gram,grams=1
+mg,milligram,milligrams=0.001
+kg,kilogram,kilograms=1000
+lb,lbm,pound,pounds=453.592
+t,ton,tons=1.016e6
+tonne,tonnes=1e6
+oz,ounce,ounces=28.3495
+gn,grain,grains=0.06479891
+amu,atomic unit,atomic mass unit,atom,atomic units,atomic mass units,atoms=1.6605392e-24
+st,stone,stones=6350.2932
+
+$VOLUME
+tsp,teaspoon,teaspoons=0.0049
+tbsp,tablespoon,tablespoons=0.0148
+cp,cup,cups=0.2366
+floz,fluid-ounce,fluid ounce=0.0296
+pt,pint,pints=0.4732
+qu,quart,quarts=0.9464
+gal,gallon,gallons=3.7854
+barrel=119.2405
+ml,milliliter,mil,mils,milliliters=0.001
+l,liter,liters=1
+cm3,cm^3,cucm,cu cm,cu-cm,cubic centimeter,cubic centimeters=0.001
+m3,m^3,cum,cu m,cu-m,cubic meter,cubic meters=1000
+in3,in^3,cuin,cu in,cu-in,cubic inch,cubic inches=0.0164
+ft3,ft^3,cuft,cu ft,cu-ft,cubic foot,cubic feet=28.3168
+yd3,yd^3,cuyd,cu yd,cu-yd,cubic yard,cubic yards=764.5549
+
+$AREA
+m2,m^2,sqm,sq m,sq-m,square meter,square meters=1
+km2,km^2,sqkm,sq km,sq-km,square kilometer,square kilometers=1000000
+cm2,cm^2,sqcm,sq cm,sq-cm,square centimeter,square centimeters=0.0001
+ha,hectare,hectares=10000
+mi2,mi^2,sqmi,sq mi,sq-mi,square mile,square miles=2589988.1103
+yd2,yd^2,sqyd,sq yd,sq-yd,square yard,square yards=0.8361
+ft2,ft^2,sqft,sq ft,sq-ft,square foot,square feet=0.0929
+in2,in^2,sqin,sq in,sq-ft,square inch,square inches=0.0006
+ac,acre,acres=4046.8564
+
+$VELOCITY
+m/s,mps,meter per second,meters per second=1
+km/h,kph,kilometer per hour,kilometers per hour=0.2778
+mi/h,m/h,mph,mile per hour,miles per hour=0.447
+ft/s,fps,ftps,foot per second,feet per second=0.3048
+kt,kts,knot,knots,nautical mile per hour,nautical miles per hour=0.5144
+
+$TIME
+y,yr,yrs,year,years=3153600
+mn,mth,mths,month,months=262800
+wk,week=604800
+d,day,days=86400
+h,hr,hrs,hour,hours=3600
+min,minute=60
+s,sec,secs,second,seconds=1
+ms,millisecond,milliseconds=0.001
+
+$TORQUE
+n-m,newton meter,newton-meter,newton-meters,newton meters=1
+ftlb,ftlbf,ft-lb,ftlbf,foot pound,foot-pound=1.3558
+inlb,inlbf,in-lb,inlbf,inch pound,inch-pound=0.113
+
+$DATA
+b,byte,bytes=1
+bit,bits=0.125
+kilobit,kilobits=128
+kb,kilobyte,kilobytes=1024
+megabit,megabits=131072
+mb,megabtye,megabytes=1048576
+gigabit,gigabits=134217728
+gb,gigabyte,gigabytes=1073741824
+terabit,terabits=137438953472
+tb,terabyte,terabytes=1099511627776
+
+$ENERGY
+j,joule,joules=1
+kj,kilojoule,kilojoules=1000
+cal,cals,calorie,calories=4.184
+kcal,kcals,kilo-calorie,kilo calorie,kilo-calories,kilo calories=4184
+btu,british thermal unit,british thermal units=1055.0559
+kwh,kw/h,kilowatt hour,kilowatt-hour,kilowatt-hours,kilowatt hours=3600000
+
+$POWER
+w,watt,watts=1
+kw,kilowatt,kilowatts=1000
+mw,megawatt,megawatts=1000000
+hp,horsepower,horse-power,horse power=745.6999
+
+$PRESSURE
+mpa,megapascal,megapascals=1000000
+kpa,kilopascal,kilopascals=1000
+pa,pascal,pascals=1
+bar,bars=100000
+psi=6894.7573
+psf=47.8803
+atm,atmo,atmosphere,atmospheres=101325
+mmhg,mm hg,torr=133.3224
